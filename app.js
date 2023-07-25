@@ -2,10 +2,8 @@ const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
 
 const imgPlayer = new Image();
-imgPlayer.src = '/img/player/playerShip1_blue.png';
+imgPlayer.src = './img/player/playerShip1_blue.png';
 
-const imgBullet = new Image();
-imgBullet.src = '/img/bullet.png';
 
 class Player {
     constructor(imgPlayer) {
